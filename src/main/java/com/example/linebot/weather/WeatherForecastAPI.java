@@ -19,7 +19,7 @@ public class WeatherForecastAPI {
     private String requestUrl;
 
     public WeatherForecastAPI(String coordinates) {
-        this.apiKey = "dj00aiZpPWhXajZzRHZFWDY3ZiZzPWNvbnN1bWVyc2VjcmV0Jng9ZTI-";
+        this.apiKey = "";
         this.requestUrl = "https://map.yahooapis.jp/weather/V1/place" +
                 "?coordinates=" + coordinates +
                 "&output=json" +
