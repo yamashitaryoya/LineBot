@@ -17,7 +17,7 @@ public class GeoCodeAPI {
     String requestUrl;
 
     public GeoCodeAPI(String area) {
-        this.apiKey = "dj00aiZpPWhXajZzRHZFWDY3ZiZzPWNvbnN1bWVyc2VjcmV0Jng9ZTI-";
+        this.apiKey = "";
         this.requestUrl = "https://map.yahooapis.jp/geocode/V1/geoCoder" +
                 "?appid=" + apiKey +
                 "&output=json" +
